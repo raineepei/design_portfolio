@@ -15,7 +15,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hello! I'm Rainee
+          Hello! I'm Rainee ☻
           <br/>A UX Researcher &amp; Designer 
           <br/>from San Diego, CA.
         </h1>

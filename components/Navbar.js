@@ -8,7 +8,7 @@ const Navbar = () => {
             <Link href='/'>
                 <a>
                     <span>
-                        <Image src='/images/cat-logo.jpg' alt="Home" width={47} height={50} />
+                        <Image src='/images/cat-logo.svg' alt="Home" width={47} height={50} />
                     </span>
                 </a>
             </Link>
