@@ -22,28 +22,45 @@ export default function Home() {
 
         <p className={styles.description}>
           + Currently a Researcher at UC San Diego's 
-          <br/><u>Healthcare Robotics Lab.</u>
+          <br/><Link href='http://healthrobotics.ucsd.edu/'><a><u>Healthcare Robotics Lab.</u></a></Link>
         </p>
+        {/* <span className={styles.bigcat}>
+          <Image src='/images/big-cat.svg' alt="Home" width={150} height={150} />
+        </span> */}
 
         {/* horizontal linebreak */}
-        <header className={styles.header}></header>
+        <header className={styles.breakline}></header>
+        
+        <div>
+          <div className={styles.grid}>
+            <div className={styles.card}>
+              <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank">
+                <h2>1. DEPOP REDESIGN</h2>
+                <p>A web redesign focused on improving price-comparison functionalities on secondhand e-commerce webistes to encourage sustainable shopping.</p>
+              </a>
+            </div>
 
+            <div className={styles.hoverimage}>
+              <Image src='/images/big-cat.svg' className={styles.hoverimage} width={150} height={150} />
+            </div>
+          </div>
 
+          <div className={styles.grid}>
+            <div className={styles.card}>
+              <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank">
+                <h2>1. DEPOP REDESIGN</h2>
+                <p>A web redesign focused on improving price-comparison functionalities on secondhand e-commerce webistes to encourage sustainable shopping.</p>
+              </a>
+            </div>
 
-        <div className={styles.grid}>
-          <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" className={styles.card} target="_blank">
-            <h2>1. DEPOP REDESIGN</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+            <div className={styles.hoverimage}>
+              <Image src='/images/big-cat.svg' className={styles.hoverimage} width={150} height={150} />
+            </div>
+          </div>
 
           <a href="/case-studies/kini-koffee" className={styles.card}>
-            <h2></h2>
-            <p></p>
-          </a>
-
-          <a href="/case-studies/kini-koffee" className={styles.card}>
-            <h2>2. KINI KOFFEE</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2 className={styles.kinicard}>2. KINI KOFFEE</h2>
+            <p>UX Researcher for the design and development of a website for women-led coffee shop, Kini Koffee.</p>
           </a>
 
           <a href="/case-studies/kini-koffee" className={styles.card}>
@@ -56,7 +73,25 @@ export default function Home() {
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
+          <a href="/case-studies/kini-koffee" className={styles.card}>
+            <h2></h2>
+            <p></p>
+          </a>
+
+          <a href="/case-studies/kini-koffee" className={styles.card}>
+            <h2>4. ANALOG</h2>
+            <p></p>
+          </a>
+
+          <a href="/case-studies/kini-koffee" className={styles.card}>
+            <h2></h2>
+            <p></p>
+          </a>
         </div>
+
+        {/* horizontal linebreak */}
+        <header className={styles.breakline}></header>
+
       </main>
     </div>
   )

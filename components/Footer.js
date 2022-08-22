@@ -8,17 +8,17 @@ const Footer = () => {
             <ul className={styles.navmenu}>
                 <li className={styles.navitem}>
                     <Link href='/'>
-                        <a className={styles.navlink}>EMAIL</a>
+                        <a className={styles.navlink}><u>EMAIL</u></a>
                     </Link>
                 </li>
                 <li className={styles.navitem}>
                     <Link href='/'>
-                        <a className={styles.navlink}>LINKEDIN</a>
+                        <a className={styles.navlink}><u>LINKEDIN</u></a>
                     </Link>
                 </li>
                 <li className={styles.navitem}>
                     <Link href='/'>
-                        <a className={styles.navlink}>GITHUB</a>
+                        <a className={styles.navlink}><u>GITHUB</u></a>
                     </Link>
                 </li>
             </ul>

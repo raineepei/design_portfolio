@@ -14,7 +14,7 @@ const Navbar = () => {
             </Link>
             <ul className={styles.navmenu}>
                 <li className={styles.navitem}>
-                    <Link href='/'>
+                    <Link href='/pages/about/about.js'>
                         <a className={styles.navlink}>ABOUT</a>
                     </Link>
                 </li>
