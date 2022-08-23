@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@fontsource/roboto-mono": "^4.5.8",
+    "infinite-marquee": "^1.0.7",
     "next": "12.1.4",
     "react": "18.0.0",
     "react-dom": "18.0.0"
