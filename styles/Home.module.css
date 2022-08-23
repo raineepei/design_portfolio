@@ -20,8 +20,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
+  padding: 2% 6% 1%;
   font-family: 'Roboto Mono';
+}
+
+.navbarlogo {
+  padding-left: 60%;
 }
 
 .navmenu {
@@ -69,7 +73,7 @@
 }
 
 .footeritem {
-  margin-left: 5rem;
+  margin-left: 50%;
   list-style: none;
 }
 
