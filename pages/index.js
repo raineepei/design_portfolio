@@ -33,9 +33,35 @@ export default function Home() {
         
         <div>
           <div className={styles.grid}>
+              <div className={styles.card}>
+                <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank">
+                  <h2>1. HEALTHCARE ROBOTICS LAB</h2>
+                  <p>Work In Progress</p>
+                </a>
+              </div>
+
+              <div className={styles.hoverimage}>
+                <Image src='/images/big-cat.svg' className={styles.hoverimage} width={150} height={150} />
+              </div>
+            </div>
+
+          <div className={styles.grid}>
+              <div className={styles.card}>
+                <a href="/case-studies/kini-koffee">
+                  <h2>2. KINI KOFFEE</h2>
+                  <p>UX Researcher for the design and development of a website for women-led coffee shop, Kini Koffee.</p>
+                </a>
+              </div>
+
+              <div className={styles.hoverimage}>
+                <Image src='/images/big-cat.svg' className={styles.hoverimage} width={150} height={150} />
+              </div>
+            </div>
+
+          <div className={styles.grid}>
             <div className={styles.card}>
               <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank">
-                <h2>1. DEPOP REDESIGN</h2>
+                <h2>3. DEPOP REDESIGN</h2>
                 <p>A web redesign focused on improving price-comparison functionalities on secondhand e-commerce webistes to encourage sustainable shopping.</p>
               </a>
             </div>
@@ -48,8 +74,8 @@ export default function Home() {
           <div className={styles.grid}>
             <div className={styles.card}>
               <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank">
-                <h2>1. DEPOP REDESIGN</h2>
-                <p>A web redesign focused on improving price-comparison functionalities on secondhand e-commerce webistes to encourage sustainable shopping.</p>
+                <h2>4. DESIGN CO</h2>
+                <p>Media Coordinator</p>
               </a>
             </div>
 
@@ -58,35 +84,19 @@ export default function Home() {
             </div>
           </div>
 
-          <a href="/case-studies/kini-koffee" className={styles.card}>
-            <h2 className={styles.kinicard}>2. KINI KOFFEE</h2>
-            <p>UX Researcher for the design and development of a website for women-led coffee shop, Kini Koffee.</p>
-          </a>
+          <div className={styles.grid}>
+            <div className={styles.card}>
+              <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank">
+                <h2>5. ANALOG</h2>
+                <p>Photography</p>
+              </a>
+            </div>
 
-          <a href="/case-studies/kini-koffee" className={styles.card}>
-            <h2></h2>
-            <p></p>
-          </a>
+            <div className={styles.hoverimage}>
+              <Image src='/images/big-cat.svg' className={styles.hoverimage} width={150} height={150} />
+            </div>
+          </div>
 
-          <a href="/case-studies/kini-koffee" className={styles.card}>
-            <h2>3. DESIGN CO</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a href="/case-studies/kini-koffee" className={styles.card}>
-            <h2></h2>
-            <p></p>
-          </a>
-
-          <a href="/case-studies/kini-koffee" className={styles.card}>
-            <h2>4. ANALOG</h2>
-            <p></p>
-          </a>
-
-          <a href="/case-studies/kini-koffee" className={styles.card}>
-            <h2></h2>
-            <p></p>
-          </a>
         </div>
 
         {/* horizontal linebreak */}

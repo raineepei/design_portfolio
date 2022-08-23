@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
+import "@fontsource/roboto-mono"
 
 const Navbar = () => {
     return (
