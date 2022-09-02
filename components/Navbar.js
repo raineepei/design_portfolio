@@ -15,7 +15,7 @@ const Navbar = () => {
             </Link>
             <ul className={styles.navmenu}>
                 <li className={styles.navitem}>
-                    <Link href='about'>
+                    <Link href='about/about'>
                         <a className={styles.navlink}>ABOUT</a>
                     </Link>
                 </li>

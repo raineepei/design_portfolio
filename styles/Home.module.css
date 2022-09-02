@@ -230,12 +230,18 @@
   height: 1em;
   margin-left: 0.5rem;
 } */
- 
+
+/* MARQUEE css */
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+}
+
+.paddingmarquee {
+  padding-top: 0.5%;
+  padding-bottom: 1%;
 }
 
 .marquee {

@@ -1,0 +1,51 @@
+.container {
+  /* padding: 0 2rem; */
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.kinititle {
+  font-family: "Cormorant";
+  font-style: italic;
+  font-size: 30px;
+  color: #0857C3;
+  font-weight: 700;
+  padding-left: 6%;
+}
+
+.aboutcols {
+  float: left;
+  width: 18%;
+}
+
+/* container for about columns */
+.aboutcolscont {
+  padding-left: 6%;
+}
+
+.aboutcolscont:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.abouttitle {
+  font-family: "Roboto Mono";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.aboutdescription {
+  font-family: "Chivo";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.sectiontitle {
+  font-family: "Cormorant";
+  font-style: italic;
+  font-size: 20px;
+  color: #0857C3;
+  font-weight: 700;
+  padding-left: 6%;
+}

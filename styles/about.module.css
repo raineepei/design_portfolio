@@ -1,20 +1,29 @@
 .container {
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
+  padding-top: 3%;
+  padding-bottom: 3%;
   font-family: 'Roboto Mono';
 }
 
 .grid {
   display: grid;
   grid-template-columns: 50% 50%;
-  justify-content: center;
-  /* justify-items: center; */
+  /* justify-content: center;
+  align-items: center;  */
+}
+
+.aboutimage {
+  justify-self: center;
+  align-self: center;
 }
   
 .card {
-  margin: 1rem;
-  padding-left: 8%;
+  /* margin: 1rem; */
+  /* padding-left: 8%; */
+  align-self: center;
+  justify-items: left;
   text-align: left;
-  color: inherit;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 80%;
+  max-width: 65%;
+  line-height: 28px;
+  font-size: 18px;
 }

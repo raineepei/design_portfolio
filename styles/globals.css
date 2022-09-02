@@ -5,6 +5,7 @@ body {
   background-color: #f2f2f2;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    cursor: grab;
 }
 
 a {
