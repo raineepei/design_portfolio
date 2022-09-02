@@ -10,7 +10,7 @@
   font-size: 30px;
   color: #0857C3;
   font-weight: 700;
-  padding-left: 6%;
+  padding-left: 20%;
 }
 
 .aboutcols {
@@ -20,7 +20,7 @@
 
 /* container for about columns */
 .aboutcolscont {
-  padding-left: 6%;
+  padding-left: 20%;
 }
 
 .aboutcolscont:after {
@@ -31,7 +31,7 @@
 
 .abouttitle {
   font-family: "Roboto Mono";
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 }
 
@@ -47,5 +47,60 @@
   font-size: 20px;
   color: #0857C3;
   font-weight: 700;
-  padding-left: 6%;
+  padding-left: 20%;
+}
+
+.sectiontext {
+  font-family: "Chivo";
+  font-size: 15px;
+  padding-left: 20%;
+  padding-right: 23%;
+  line-height: 200%;
+}
+
+.bolded {
+  font-weight: 700; 
+}
+
+.buttoncontainer {
+  padding-left: 20%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.sitebutton {
+  padding: 12px 30px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Roboto Mono";
+  font-weight: 600;
+  background-color: #f2f2f2;
+  color: #0857C3;
+  border: 1px solid #0857C3;
+  border-radius: 5px; 
+  box-shadow: 5px 5px #0857C3;
+  transition: background-color 0.5s;
+}
+
+.sitebutton:hover {
+  padding: 12px 30px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Roboto Mono";
+  font-weight: 600;
+  background-color: #0857C3;
+  color: white;
+  border: 1px solid #0857C3;
+  border-radius: 5px; 
+  box-shadow: 5px 5px #d1dceb;
+}
+
+.breakline {
+  display: flex;
+  flex: 1;
+  /* padding: 2rem 0; */
+  border-top: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  padding: 20%;
 }
