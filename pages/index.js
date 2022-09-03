@@ -34,7 +34,7 @@ export default function Home() {
         <div>
           <div className={styles.grid}>
               <div className={styles.card}>
-                <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank">
+                <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank" rel="noreferrer">
                   <h2>1. HEALTHCARE ROBOTICS LAB</h2>
                   <p>Work In Progress</p>
                 </a>
@@ -60,7 +60,7 @@ export default function Home() {
 
           <div className={styles.grid}>
             <div className={styles.card}>
-              <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank">
+              <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank" rel="noreferrer">
                 <h2>3. DEPOP REDESIGN</h2>
                 <p>A web redesign focused on improving price-comparison functionalities on secondhand e-commerce webistes to encourage sustainable shopping.</p>
               </a>
@@ -73,7 +73,7 @@ export default function Home() {
 
           <div className={styles.grid}>
             <div className={styles.card}>
-              <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank">
+              <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank" rel="noreferrer">
                 <h2>4. DESIGN CO</h2>
                 <p>Media Coordinator</p>
               </a>
@@ -86,7 +86,7 @@ export default function Home() {
 
           <div className={styles.grid}>
             <div className={styles.card}>
-              <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank">
+              <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank" rel="noreferrer">
                 <h2>5. ANALOG</h2>
                 <p>Photography</p>
               </a>

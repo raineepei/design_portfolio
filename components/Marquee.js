@@ -6,14 +6,14 @@ const Marquee = () => {
       <div className={styles.paddingmarquee}>
         <div className={styles.marquee}>
           <div className={styles.marquee1}>
-            &nbsp;LET'S CHAT. &nbsp;THANKS FOR VISITING! &nbsp;LET'S CHAT. &nbsp;THANKS FOR VISITING! &nbsp;LET'S CHAT. &nbsp;THANKS FOR VISITING!
-            &nbsp;LET'S CHAT. &nbsp;THANKS FOR VISITING! &nbsp;LET'S CHAT. &nbsp;THANKS FOR VISITING! &nbsp;LET'S CHAT. &nbsp;THANKS FOR VISITING! 
-            &nbsp;LET'S CHAT. &nbsp;THANKS FOR VISITING! 
+            &nbsp;LET&apos;S CHAT. &nbsp;THANKS FOR VISITING! &nbsp;LET&apos;S CHAT. &nbsp;THANKS FOR VISITING! &nbsp;LET&apos;S CHAT. &nbsp;THANKS FOR VISITING!
+            &nbsp;LET&apos;S CHAT. &nbsp;THANKS FOR VISITING! &nbsp;LET&apos;S CHAT. &nbsp;THANKS FOR VISITING! &nbsp;LET&apos;S CHAT. &nbsp;THANKS FOR VISITING! 
+            &nbsp;LET&apos;S CHAT. &nbsp;THANKS FOR VISITING! 
           </div>
           <div className={styles.marquee2}>
-          &nbsp;LET'S CHAT. &nbsp;THANKS FOR VISITING! &nbsp;LET'S CHAT. &nbsp;THANKS FOR VISITING! &nbsp;LET'S CHAT. &nbsp;THANKS FOR VISITING!
-            &nbsp;LET'S CHAT. &nbsp;THANKS FOR VISITING! &nbsp;LET'S CHAT. &nbsp;THANKS FOR VISITING! &nbsp;LET'S CHAT. &nbsp;THANKS FOR VISITING! 
-            &nbsp;LET'S CHAT. &nbsp;THANKS FOR VISITING! 
+          &nbsp;LET&apos;S CHAT. &nbsp;THANKS FOR VISITING! &nbsp;LET&apos;S CHAT. &nbsp;THANKS FOR VISITING! &nbsp;LET&apos;S CHAT. &nbsp;THANKS FOR VISITING!
+            &nbsp;LET&apos;S CHAT. &nbsp;THANKS FOR VISITING! &nbsp;LET&apos;S CHAT. &nbsp;THANKS FOR VISITING! &nbsp;LET&apos;S CHAT. &nbsp;THANKS FOR VISITING! 
+            &nbsp;LET&apos;S CHAT. &nbsp;THANKS FOR VISITING! 
           </div>
         </div>
       </div>

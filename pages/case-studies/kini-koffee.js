@@ -72,7 +72,7 @@ export default function KiniKoffee() {
 
             <div>
                 <h3 className={styles.sectiontitle}>WHO ARE OUR USERS?</h3>
-                <p className={styles.sectiontext}>Kini Koffee wants to be portrayed as a "fun, beachy, creative" coffee shop 
+                <p className={styles.sectiontext}>Kini Koffee wants to be portrayed as a &quot;fun, beachy, creative&quot; coffee shop 
                 for people around ~16-20 years old. With this in mind, I focused on user surveys and customer interviews 
                 to determine what people think of the brand in order to figure out the questions our team needs answered 
                 and the insights we hope to learn.</p>
@@ -95,7 +95,7 @@ export default function KiniKoffee() {
             <div>
                 <h3 className={styles.sectiontitle}>FEATURING WHAT?</h3>
                 <p className={styles.sectiontext}>We needed to narrow down the essential features we wanted to showcase on 
-                Kini Koffee’s website. To do so, we had users do a Feature Sorting exercise where they would sort
+                Kini Koffee&apos;s website. To do so, we had users do a Feature Sorting exercise where they would sort
                 features usually seen in a coffee shop website into 4 categories in a given scenario (2 total).</p>    
             </div>
 
@@ -139,7 +139,7 @@ export default function KiniKoffee() {
 
             <div>
                 <h3 className={styles.subsectiontitle}>KEY FINDINGS</h3>
-                <p className={styles.pluspoint}><mark className={styles.mark}>1. Social media isn't a priority but adds legitimacy to the site and business.</mark></p>
+                <p className={styles.pluspoint}><mark className={styles.mark}>1. Social media isn&apos;t a priority but adds legitimacy to the site and business.</mark></p>
                 <p className={styles.pluspoint}><mark className={styles.mark}>2. 6/7 users said item prices were things 
                 they want to know right away</mark></p>
                 <p className={styles.pluspoint}><mark className={styles.mark}>3. Users find out about coffee shops 
