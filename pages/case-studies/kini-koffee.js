@@ -87,7 +87,7 @@ export default function KiniKoffee() {
                 <p className={styles.pluspoint}><mark className={styles.mark}>1. Coffee shop aficionados value the scenery and ambiance of a 
                 coffee shop just as much as the taste of their coffee.</mark></p>
                 <p className={styles.pluspoint}><mark className={styles.mark}>2. Customers of Kini Koffee love the taste of 
-                the shop's specialty drinks.</mark></p>
+                the shop&apos;s specialty drinks.</mark></p>
                 <p className={styles.pluspoint}><mark className={styles.mark}>3. Users find out about coffee shops 
                 not on websites or social media, but on Google Map and Yelp.v</mark></p>
             </div>

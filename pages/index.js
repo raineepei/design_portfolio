@@ -47,10 +47,12 @@ export default function Home() {
 
           <div className={styles.grid}>
               <div className={styles.card}>
-                <a href="/case-studies/kini-koffee">
-                  <h2>2. KINI KOFFEE</h2>
-                  <p>UX Researcher for the design and development of a website for women-led coffee shop, Kini Koffee.</p>
-                </a>
+                <Link href="/case-studies/kini-koffee">
+                  <div>
+                    <h2>2. KINI KOFFEE</h2>
+                    <p>UX Researcher for the design and development of a website for women-led coffee shop, Kini Koffee.</p>
+                  </div>
+                </Link>
               </div>
 
               <div className={styles.hoverimage}>
