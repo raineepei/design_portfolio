@@ -9,13 +9,13 @@ export default function About() {
     <div className={styles.container}>
       <div className={styles.grid}>
         <div className={styles.aboutimage}>
-          <Image src='/images/about_img.jpg' width={400} height={500} />
+          <Image src='/images/about_img.jpg' width={400} height={500} alt="about picture"/>
         </div>
 
         <div className={styles.card}>
-          <p>Hey there! I’m currently a student at UC San Diego studying Human-Computer Interaction &amp; Bioinformatics.</p>
-          <p>I’m passionate about the intersection of accessibility, design, and research.</p>
-          <p>In my free time, I love to rock climb, shoot film photography, and punch needle. I also love chillin’ with my two cats!</p>
+          <p>Hey there! I&apos;m currently a student at UC San Diego studying Human-Computer Interaction &amp; Bioinformatics.</p>
+          <p>I&apos;m passionate about the intersection of accessibility, design, and research.</p>
+          <p>In my free time, I love to rock climb, shoot film photography, and punch needle. I also love chillin&apos; with my two cats!</p>
         </div>
       </div>
     </div>

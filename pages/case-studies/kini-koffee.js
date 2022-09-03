@@ -43,7 +43,7 @@ export default function KiniKoffee() {
 
             <div>
                 <h3 className={styles.sectiontitle}>ROLE</h3>
-                <p className={styles.sectiontext}>As the team’s UX Researcher, I spearheaded the research and interview process, 
+                <p className={styles.sectiontext}>As the team&apos;s UX Researcher, I spearheaded the research and interview process, 
                 including the end-to-end process, which involved recruitment and synthesis. In collaboration with the UI/UX 
                 and Visual Designers, I helped pull key insights from our research and interviews to help inform our design decisions. 
                 The work showcased below are my <span className={styles.bolded}>primary contributions.</span></p>
@@ -79,7 +79,7 @@ export default function KiniKoffee() {
 
                 <p className={styles.pluspoint}>+ We surveyed 60 users (primarily within the target demographic) on their 
                 outlook on small coffee shops.</p>
-                <p className={styles.pluspoint}>+ We interviewed 5 customers and 1 employee at Kini Koffee’s Del Mar location.</p>
+                <p className={styles.pluspoint}>+ We interviewed 5 customers and 1 employee at Kini Koffee&apos;s Del Mar location.</p>
             </div>
 
             <div>
@@ -121,16 +121,16 @@ export default function KiniKoffee() {
                 <div className={styles.twocol}>
                     <p className={styles.examplesdescription}>On the location page, find the store hours for the drive-thru 
                     location [Prototype A and Prototype B]</p>
-                    <p className={styles.examplesdescription}>→ Given our team didn’t know there was a 2nd location until 2 
-                    weeks of researching Kini Koffee incessantly, it was important to highlight Kini Koffee’s drive-thru location and figure out which 
+                    <p className={styles.examplesdescription}>→ Given our team didn&apos;t know there was a 2nd location until 2 
+                    weeks of researching Kini Koffee incessantly, it was important to highlight Kini Koffee&apos;s drive-thru location and figure out which 
                     layout allows users to easily differentiate the two locations in order to find the appropriate 
                     store hours, especially since 6/7 users said store hours are things they want to know right away.</p>
                 </div>
 
                 <div className={styles.twocol}>
-                    <p className={styles.examplesdescription}>On the menu page, find a drink you think you’d like and decide
+                    <p className={styles.examplesdescription}>On the menu page, find a drink you think you&apos;d like and decide
                     on an add-on or change you would like to make to the drink [Prototype A and Prototype B]</p>
-                    <p className={styles.examplesdescription}>→ Given that Kini Koffee’s specialty drinks draw many customers 
+                    <p className={styles.examplesdescription}>→ Given that Kini Koffee&apos;s specialty drinks draw many customers 
                     back to the store, it is vital that users are able to quickly find and access these menu items, 
                     especially prices, since 6/7 users said item prices are things they want to know right away.
                     </p>
