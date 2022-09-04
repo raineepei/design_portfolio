@@ -65,7 +65,7 @@
 
 .buttoncontainer {
   padding-left: 20%;
-  padding-bottom: 2%;
+  padding-bottom: 1.5%;
   padding-top: 1%;
 }
 
@@ -170,4 +170,29 @@
   font-size: 15px;
   font-weight: 400;
   line-height: 200%;
+}
+
+.backbutton {
+  font-family: "Roboto Mono";
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.backbutton:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  color:#0857C3;
+}
+
+.quote {
+  font-family: "Chivo";
+  font-size: 20px;
+  text-align: center;
+}
+
+.quotations {
+  font-size: 30px;
+  color: #0857C3;
 }

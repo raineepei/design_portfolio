@@ -84,10 +84,29 @@ export default function KiniKoffee() {
 
             <div>
                 <h3 className={styles.subsectiontitle}>KEY FINDINGS</h3>
+            </div>
+
+            <div>
                 <p className={styles.pluspoint}><mark className={styles.mark}>1. Coffee shop aficionados value the scenery and ambiance of a 
                 coffee shop just as much as the taste of their coffee.</mark></p>
+                <div className={styles.twocolcont}>
+                    <div className={styles.twocol}>
+                        <Image src="/images/kini-top3.jpg" width={567} height={270} />
+                    </div>
+
+                    <div className={styles.twocol}>
+                        <p className={styles.quote}>“For me, obviously the location is great and the view is beautiful. 
+                        Everyone who works here is super nice and it creates a really nice environment too.”</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
                 <p className={styles.pluspoint}><mark className={styles.mark}>2. Customers of Kini Koffee love the taste of 
                 the shop&apos;s specialty drinks.</mark></p>
+            </div>
+
+            <div>
                 <p className={styles.pluspoint}><mark className={styles.mark}>3. Users find out about coffee shops 
                 not on websites or social media, but on Google Map and Yelp.v</mark></p>
             </div>
@@ -144,6 +163,29 @@ export default function KiniKoffee() {
                 they want to know right away</mark></p>
                 <p className={styles.pluspoint}><mark className={styles.mark}>3. Users find out about coffee shops 
                 not on websites or social media, but on Google Map and Yelp.v</mark></p>
+            </div>
+
+            <div>
+                <h3 className={styles.sectiontitle}>ANALYSIS &amp; SYNTHESIS</h3>
+                <p className={styles.sectiontext}>Alongside a synthesis of the feaure sorting exercise, I grouped each 
+                user&apos;s feedback on each prototype into the categories of suggestions, expectations, likes, and 
+                confusions, which helped us decide on the features from each prototype we want to implement into the
+                final prototype, and any additional features we want to add.</p>    
+            </div>
+
+            {/* horizontal linebreak */}
+            <hr className={styles.breakline} />
+
+            <div>
+                <h3 className={styles.sectiontitle}>REFLECTION</h3>  
+                <p className={styles.pluspoint}>+ Working with an actual stakeholder is so much more different 
+                than working on a school project. Collaboration, communication, and compromise with the client 
+                is of utmost importance. </p>
+                
+            </div>
+
+            <div className={styles.backbutton}>
+                <a href="/">BACK</a>
             </div>
 
         </div>

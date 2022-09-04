@@ -34,14 +34,14 @@ export default function Home() {
         <div>
           <div className={styles.grid}>
               <div className={styles.card}>
-                <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank" rel="noreferrer">
+                <a target="_blank" rel="noreferrer">
                   <h2>1. HEALTHCARE ROBOTICS LAB</h2>
                   <p>Work In Progress</p>
                 </a>
               </div>
 
               <div className={styles.hoverimage}>
-                <Image src='/images/big-cat.svg' className={styles.hoverimage} width={150} height={150} />
+                <Image src='/images/robot.svg' className={styles.hoverimage} width={150} height={150} />
               </div>
           </div>
 
@@ -56,7 +56,7 @@ export default function Home() {
               </div>
 
               <div className={styles.hoverimage}>
-                <Image src='/images/big-cat.svg' className={styles.hoverimage} width={150} height={150} />
+                <Image src='/images/kini.svg' className={styles.hoverimage} width={150} height={150} />
               </div>
             </div>
 
@@ -75,7 +75,7 @@ export default function Home() {
 
           <div className={styles.grid}>
             <div className={styles.card}>
-              <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank" rel="noreferrer">
+              <a target="_blank" rel="noreferrer">
                 <h2>4. DESIGN CO</h2>
                 <p>Media Coordinator</p>
               </a>
@@ -88,7 +88,7 @@ export default function Home() {
 
           <div className={styles.grid}>
             <div className={styles.card}>
-              <a href="https://medium.com/@pei.rainee/depop-redesign-73b1e2f7d8c5" target="_blank" rel="noreferrer">
+              <a target="_blank" rel="noreferrer">
                 <h2>5. ANALOG</h2>
                 <p>Photography</p>
               </a>
