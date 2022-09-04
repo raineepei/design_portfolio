@@ -44,13 +44,13 @@ export default function KiniKoffee() {
             <div>
                 <h3 className={styles.sectiontitle}>ROLE</h3>
                 <p className={styles.sectiontext}>As the team&apos;s UX Researcher, I spearheaded the research and interview process, 
-                including the end-to-end process, which involved recruitment and synthesis. In collaboration with the UI/UX 
+                including the end-to-end process involving recruitment and synthesis. In collaboration with the UI/UX 
                 and Visual Designers, I helped pull key insights from our research and interviews to help inform our design decisions. 
                 The work showcased below are my <span className={styles.bolded}>primary contributions.</span></p>
             </div>
 
             <div className={styles.buttoncontainer}>
-                <a className={styles.sitebutton}>CHECK OUT THE SITE!</a>
+                <a href="https://www.kinikoffeesd.com/" className={styles.sitebutton} target="_blank" rel="noreferrer">CHECK OUT THE SITE!</a>
             </div>
 
             {/* horizontal linebreak */}
