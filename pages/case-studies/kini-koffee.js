@@ -96,17 +96,17 @@ export default function KiniKoffee() {
                     </div>
 
                     <div className={styles.twocol}>
-                        <p className={styles.quote}><span className={styles.quotations}>"</span>For me, obviously the 
+                        <p className={styles.quote}><span className={styles.quotations}>&apos;</span>For me, obviously the 
                         location is great and the view is beautiful. Everyone who works here is super nice and it 
-                        creates a really nice environment too.<span className={styles.quotations}>"</span></p>
+                        creates a really nice environment too.<span className={styles.quotations}>&apos;</span></p>
                     </div>
                 </div>
 
                 <div className={styles.twocolcont}>
                     <div className={styles.twocol}>
-                        <p className={styles.quote}><span className={styles.quotations}>"</span>One - if the drinks are 
+                        <p className={styles.quote}><span className={styles.quotations}>&apos;</span>One - if the drinks are 
                         good and the service - drinks and service would be primary, and then the atmosphere, like 
-                        this [points at ocean] definitely is the icing on the cake.<span className={styles.quotations}>"</span></p>
+                        this [points at ocean] definitely is the icing on the cake.<span className={styles.quotations}>&apos;</span></p>
                     </div>
 
                     <div className={styles.twocol}>
@@ -266,7 +266,7 @@ export default function KiniKoffee() {
             </div>
 
             <div className={styles.backbutton}>
-                <a href="/">BACK</a>
+                <Link href="/">BACK</Link>
             </div>
 
         </div>
