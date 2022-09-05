@@ -133,6 +133,7 @@
   padding-right: 20%;
   line-height: 200%;
   margin-top: -0.5%;
+  padding-bottom: 0.3%;
 }
 
 .mark {
@@ -170,6 +171,7 @@
   font-size: 15px;
   font-weight: 400;
   line-height: 200%;
+  margin-top: 0%;
 }
 
 .backbutton {
@@ -177,7 +179,8 @@
   font-size: 25px;
   text-decoration: underline;
   text-align: center;
-  padding-top: 3%;
+  padding-top: 2%;
+  padding-bottom: 1%;
 }
 
 .backbutton:hover {
@@ -188,11 +191,32 @@
 
 .quote {
   font-family: "Chivo";
-  font-size: 20px;
+  font-size: 19px;
   text-align: center;
+  line-height: 200%;
 }
 
 .quotations {
   font-size: 30px;
   color: #0857C3;
+}
+
+.caption {
+  font-size: 13px;
+  font-style: italic;
+  font-family: "Chivo";
+  line-height: 200%;
+}
+
+.categoriesmain {
+  font-size: 18px;
+  font-family: "Chivo";
+  line-height: 200%;
+  font-weight: 700;
+}
+
+.categories {
+  font-size: 15px;
+  font-family: "Chivo";
+  line-height: 200%;
 }

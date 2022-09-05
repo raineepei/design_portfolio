@@ -91,31 +91,87 @@ export default function KiniKoffee() {
                 coffee shop just as much as the taste of their coffee.</mark></p>
                 <div className={styles.twocolcont}>
                     <div className={styles.twocol}>
-                        <Image src="/images/kini-top3.jpg" width={567} height={270} />
+                        <Image src="/images/kini-koffee/kini-top3.jpg" width={567} height={270} />
+                        <p className={styles.caption}>88.3% of our survey participants responded that they care about the scenery and ambiance of a coffee shop.</p>
                     </div>
 
                     <div className={styles.twocol}>
-                        <p className={styles.quote}>“For me, obviously the location is great and the view is beautiful. 
-                        Everyone who works here is super nice and it creates a really nice environment too.”</p>
+                        <p className={styles.quote}><span className={styles.quotations}>"</span>For me, obviously the 
+                        location is great and the view is beautiful. Everyone who works here is super nice and it 
+                        creates a really nice environment too.<span className={styles.quotations}>"</span></p>
+                    </div>
+                </div>
+
+                <div className={styles.twocolcont}>
+                    <div className={styles.twocol}>
+                        <p className={styles.quote}><span className={styles.quotations}>"</span>One - if the drinks are 
+                        good and the service - drinks and service would be primary, and then the atmosphere, like 
+                        this [points at ocean] definitely is the icing on the cake.<span className={styles.quotations}>"</span></p>
+                    </div>
+
+                    <div className={styles.twocol}>
+                        <p className={styles.quote}>→ 4 out of the 5 customers 
+                        we interviewed talked about how they really appreciated the atmosphere that they can get 
+                        from Kini Koffee (ambiance)</p>
                     </div>
                 </div>
             </div>
 
+            <br/>
+
             <div>
                 <p className={styles.pluspoint}><mark className={styles.mark}>2. Customers of Kini Koffee love the taste of 
                 the shop&apos;s specialty drinks.</mark></p>
+                <div className={styles.twocolcont}>
+                    <div className={styles.twocol}>
+                        <p className={styles.quote}>→ All 5 interviewed customers enjoyed one of Kini Koffee&apos;s featured, 
+                        specialty drinks (not a regular coffee).</p>
+                    </div>
+
+                    <div className={styles.twocol}>
+                        <p className={styles.quote}>→ 73.3% of people mentioned that the taste of the coffee is one of 
+                        the top three things they value most about small coffee shops.</p>
+                    </div>
+                </div>
             </div>
+
+            <br/>
 
             <div>
                 <p className={styles.pluspoint}><mark className={styles.mark}>3. Users find out about coffee shops 
-                not on websites or social media, but on Google Map and Yelp.v</mark></p>
+                not on websites or social media, but on Google Map and Yelp.</mark></p>
+                <div className={styles.twocolcont}>
+                    <div className={styles.twocol}>
+                        <p className={styles.quote}>→ 38.3% of people usually find coffee shops through Google Maps &amp; 
+                        36.7% usually find coffee shops through Yelp.</p>
+                    </div>
+
+                    <div className={styles.twocol}>
+                        <Image src="/images/kini-koffee/yelp-googlemap.png" width={628} height={264} />
+                    </div>
+                </div>
             </div>
 
             <div>
                 <h3 className={styles.sectiontitle}>FEATURING WHAT?</h3>
                 <p className={styles.sectiontext}>We needed to narrow down the essential features we wanted to showcase on 
                 Kini Koffee&apos;s website. To do so, we had users do a Feature Sorting exercise where they would sort
-                features usually seen in a coffee shop website into 4 categories in a given scenario (2 total).</p>    
+                features usually seen in a coffee shop website into 4 categories in a given scenario (2 total).</p>   
+
+                <div className={styles.twocolcont}>
+                    <div className={styles.twocol}>
+                        <Image src="/images/kini-koffee/feature-sorting-empty.jpg" width={582} height={424} />
+                        
+                    </div>
+
+                    <div className={styles.twocol}>
+                        <p className={styles.categoriesmain}>4 Categories</p>
+                        <p className={styles.categories}>1. Things I want to know right away.</p>
+                        <p className={styles.categories}>2. Things that are nice to have, but not my priority.</p>
+                        <p className={styles.categories}>3. Things I wouldn&apos;t go to a store&apos;s website for</p>
+                        <p className={styles.categories}>4. Things I would disregard even if I saw it</p>
+                    </div>
+                </div> 
             </div>
 
             <div>
@@ -136,33 +192,44 @@ export default function KiniKoffee() {
                 understand the information architecture and navigation that felt more usable and comfortable to users.</p>    
             </div>
 
-            <div className={styles.twocolcont}>
-                <div className={styles.twocol}>
-                    <p className={styles.examplesdescription}>On the location page, find the store hours for the drive-thru 
-                    location [Prototype A and Prototype B]</p>
-                    <p className={styles.examplesdescription}>→ Given our team didn&apos;t know there was a 2nd location until 2 
-                    weeks of researching Kini Koffee incessantly, it was important to highlight Kini Koffee&apos;s drive-thru location and figure out which 
-                    layout allows users to easily differentiate the two locations in order to find the appropriate 
-                    store hours, especially since 6/7 users said store hours are things they want to know right away.</p>
-                </div>
+            <div>
+                <h3 className={styles.subsectiontitle}>EXAMPLES</h3>
 
-                <div className={styles.twocol}>
-                    <p className={styles.examplesdescription}>On the menu page, find a drink you think you&apos;d like and decide
-                    on an add-on or change you would like to make to the drink [Prototype A and Prototype B]</p>
-                    <p className={styles.examplesdescription}>→ Given that Kini Koffee&apos;s specialty drinks draw many customers 
-                    back to the store, it is vital that users are able to quickly find and access these menu items, 
-                    especially prices, since 6/7 users said item prices are things they want to know right away.
-                    </p>
+                <div className={styles.twocolcont}>
+                    <div className={styles.twocol}>
+                        <p className={styles.examplesdescription}>On the <span className={styles.bolded}>location page</span>, find the store hours for the drive-thru 
+                        location [Prototype A and Prototype B]</p>
+                        <p className={styles.examplesdescription}>→ Given our team didn&apos;t know there was a 2nd location until 2 
+                        weeks of researching Kini Koffee incessantly, it was important to highlight Kini Koffee&apos;s drive-thru location and figure out which 
+                        layout allows users to easily differentiate the two locations in order to find the appropriate 
+                        store hours, especially since 6/7 users said store hours are things they want to know right away.</p>
+                    </div>
+
+                    <div className={styles.twocol}>
+                        <p className={styles.examplesdescription}>On the <span className={styles.bolded}>menu page</span>, find a drink you think you&apos;d like and decide
+                        on an add-on or change you would like to make to the drink [Prototype A and Prototype B]</p>
+                        <p className={styles.examplesdescription}>→ Given that Kini Koffee&apos;s specialty drinks draw many customers 
+                        back to the store, it is vital that users are able to quickly find and access these menu items, 
+                        especially prices, since 6/7 users said item prices are things they want to know right away.
+                        </p>
+                    </div>
                 </div>
+            </div>
+
+            <div className={styles.buttoncontainer}>
+                <a href="https://docs.google.com/document/d/1a56og2KegNk7R8Mj9RijF6tQFf_0ZDZ1uOxU8_Jae8Y/edit?usp=sharing" className={styles.sitebutton} target="_blank" rel="noreferrer">INTERVIEW GUIDELINES</a>
             </div>
 
             <div>
                 <h3 className={styles.subsectiontitle}>KEY FINDINGS</h3>
                 <p className={styles.pluspoint}><mark className={styles.mark}>1. Social media isn&apos;t a priority but adds legitimacy to the site and business.</mark></p>
-                <p className={styles.pluspoint}><mark className={styles.mark}>2. 6/7 users said item prices were things 
-                they want to know right away</mark></p>
-                <p className={styles.pluspoint}><mark className={styles.mark}>3. Users find out about coffee shops 
-                not on websites or social media, but on Google Map and Yelp.v</mark></p>
+                <p className={styles.pluspoint}><mark className={styles.mark}>2. Users had difficulty navigating back 
+                to the homepage.</mark></p>
+                <p className={styles.pluspoint}><mark className={styles.mark}>3. Users won&apos;t trust selected/curated 
+                content because it doesn&apos;t show honest customer feedback → Prefer Google Maps or Yelp to view honest reviews.
+                </mark></p>
+                <p className={styles.pluspoint}><mark className={styles.mark}>4. Career opportunities were not easily discoverable → Design pattern used to showcase 
+                careers needed revisions.</mark></p>
             </div>
 
             <div>
@@ -180,8 +247,22 @@ export default function KiniKoffee() {
                 <h3 className={styles.sectiontitle}>REFLECTION</h3>  
                 <p className={styles.pluspoint}>+ Working with an actual stakeholder is so much more different 
                 than working on a school project. Collaboration, communication, and compromise with the client 
-                is of utmost importance. </p>
-                
+                is of utmost importance.</p>
+                <p className={styles.pluspoint}>+ The design process is very nuanced, and changes with each team 
+                and project you work with.</p>
+                <p className={styles.pluspoint}>+ UX Research is the foundation of the design process. It&apos;s 
+                easy to stray off track during the design process and start designing for the &ldquo;wrong&rdquo;
+                problem without conducting UX Research prior. Research guides our design decisions and allows us to 
+                approach the problem intuitively and effectively based on both our client and customer needs.</p>
+                <p className={styles.pluspoint}>+ Analysis and Synthesis of your research data is very, very important. 
+                How can we utilize this information to guide us towards our designs and redesigns?</p>
+            </div>
+
+            <div>
+                <h3 className={styles.subsectiontitle}>THANK YOU TO:</h3>
+                <p className={styles.sectiontext}>Our Mentors: Jennie Yoon, Lily Konings, &amp; Bryant Lim</p>
+                <p className={styles.sectiontext}>Jewell, our client who kept us well-caffeinated with Kini Koffee&apos;s amazing drinks</p>
+                <p className={styles.sectiontext}>Power Up, for putting together this opportunity!</p>
             </div>
 
             <div className={styles.backbutton}>
