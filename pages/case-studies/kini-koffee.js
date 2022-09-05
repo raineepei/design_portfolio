@@ -96,17 +96,17 @@ export default function KiniKoffee() {
                     </div>
 
                     <div className={styles.twocol}>
-                        <p className={styles.quote}><span className={styles.quotations}>&apos;</span>For me, obviously the 
+                        <p className={styles.quote}><span className={styles.quotations}>&quot;</span>For me, obviously the 
                         location is great and the view is beautiful. Everyone who works here is super nice and it 
-                        creates a really nice environment too.<span className={styles.quotations}>&apos;</span></p>
+                        creates a really nice environment too.<span className={styles.quotations}>&quot;</span></p>
                     </div>
                 </div>
 
                 <div className={styles.twocolcont}>
                     <div className={styles.twocol}>
-                        <p className={styles.quote}><span className={styles.quotations}>&apos;</span>One - if the drinks are 
+                        <p className={styles.quote}><span className={styles.quotations}>&quot;</span>One - if the drinks are 
                         good and the service - drinks and service would be primary, and then the atmosphere, like 
-                        this [points at ocean] definitely is the icing on the cake.<span className={styles.quotations}>&apos;</span></p>
+                        this [points at ocean] definitely is the icing on the cake.<span className={styles.quotations}>&quot;</span></p>
                     </div>
 
                     <div className={styles.twocol}>
@@ -185,7 +185,7 @@ export default function KiniKoffee() {
             </div>
 
             <div>
-                <h3 className={styles.sectiontitle}>USABILITY TESTING?</h3>
+                <h3 className={styles.sectiontitle}>USABILITY TESTING</h3>
                 <p className={styles.sectiontext}>Pulling from our research and interviews, we developed 2 wireframe 
                 versions that I utilized to conduct an A/B Testing session with 3 users. Each user had to engage with 
                 both wireframes given our task list and had to answer prototype-specific questions. This was used to 
