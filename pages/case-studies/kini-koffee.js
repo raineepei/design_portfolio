@@ -73,7 +73,7 @@ export default function KiniKoffee() {
             <div>
                 <h3 className={styles.sectiontitle}>WHO ARE OUR USERS?</h3>
                 <p className={styles.sectiontext}>Kini Koffee wants to be portrayed as a &quot;fun, beachy, creative&quot; coffee shop 
-                for people around ~16-20 years old. With this in mind, I focused on user surveys and customer interviews 
+                for people around ~16-20 years old. With this in mind, to begin our research, I focused on user surveys and customer interviews 
                 to determine what people think of the brand in order to figure out the questions our team needs answered 
                 and the insights we hope to learn.</p>
 
@@ -235,7 +235,7 @@ export default function KiniKoffee() {
             <div>
                 <h3 className={styles.sectiontitle}>ANALYSIS &amp; SYNTHESIS</h3>
                 <p className={styles.sectiontext}>Alongside a synthesis of the feaure sorting exercise, I grouped each 
-                user&apos;s feedback on each prototype into the categories of suggestions, expectations, likes, and 
+                user&apos;s feedback from testing on each prototype into the categories of suggestions, expectations, likes, and 
                 confusions, which helped us decide on the features from each prototype we want to implement into the
                 final prototype, and any additional features we want to add.</p>    
             </div>
@@ -261,7 +261,7 @@ export default function KiniKoffee() {
             <div>
                 <h3 className={styles.subsectiontitle}>THANK YOU TO:</h3>
                 <p className={styles.sectiontext}>Our Mentors: Jennie Yoon, Lily Konings, &amp; Bryant Lim</p>
-                <p className={styles.sectiontext}>Jewell, our client who kept us well-caffeinated with Kini Koffee&apos;s amazing drinks</p>
+                <p className={styles.sectiontext}>Jewell, our client who kept us well-caffeinated with Kini Koffee&apos;s delicious drinks</p>
                 <p className={styles.sectiontext}>Power Up, for putting together this opportunity!</p>
             </div>
 
