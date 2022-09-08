@@ -41,7 +41,7 @@ export default function Home() {
               </div>
 
               <div className={styles.hoverimage}>
-                <Image src='/images/robot.svg' className={styles.hoverimage} width={150} height={150} />
+                <Image src='/images/robots.svg' className={styles.hoverimage} width={150} height={150} />
               </div>
           </div>
 
