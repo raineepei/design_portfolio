@@ -153,6 +153,22 @@ export default function KiniKoffee() {
             </div>
 
             <div>
+                <h3 className={styles.subsectiontitle}>USER PERSONAS</h3>
+            </div>
+
+            <div>
+                <div className={styles.twocolcont}>
+                    <div className={styles.twocol}>
+                        <Image src="/images/kini-koffee/kini-persona1.png" width={575} height={566} />
+                    </div>
+
+                    <div className={styles.twocol}>
+                        <Image src="/images/kini-koffee/kini-persona2.png" width={575} height={566} />
+                    </div>
+                </div>
+            </div>
+
+            <div>
                 <h3 className={styles.sectiontitle}>FEATURING WHAT?</h3>
                 <p className={styles.sectiontext}>We needed to narrow down the essential features we wanted to showcase on 
                 Kini Koffee&apos;s website. To do so, we had users do a Feature Sorting exercise where they would sort
@@ -172,6 +188,22 @@ export default function KiniKoffee() {
                         <p className={styles.categories}>4. Things I would disregard even if I saw it</p>
                     </div>
                 </div> 
+
+                <br/>
+                <br/>
+
+                <div className={styles.twocolcont}>
+                    <div className={styles.twocol}>
+                        <p className={styles.categoriesmain}>Keeping in mind from our survey that:</p>
+                        <p className={styles.categories}>+ 31.7% of users would try to find the menu first.</p>
+                        <p className={styles.categories}>+ 32% of users would try to find pictures second.</p>
+                        <p className={styles.categories}>+ 30% of users would try to find the store location first.</p>
+                    </div>
+
+                    <div className={styles.twocol}>
+                        <Image src="/images/kini-koffee/feature-sorting-example.jpg" width={694} height={394} />
+                    </div>
+                </div> 
             </div>
 
             <div>
@@ -182,6 +214,12 @@ export default function KiniKoffee() {
                 they want to know right away</mark></p>
                 <p className={styles.pluspoint}><mark className={styles.mark}>3. Users find out about coffee shops 
                 not on websites or social media, but on Google Map and Yelp.v</mark></p>
+            </div>
+
+            <div>
+                <p className={styles.sectiontext}>Alongside the logistical information of Kini Koffee&apos;s stores, 
+                we needed to make sure to show off Kini Koffee&apos;s strongest points, such as its scenery and location, 
+                as well as emphasize their unique drinks, so people are motivated to visit the store and spend time there.</p>    
             </div>
 
             <div>
@@ -235,9 +273,47 @@ export default function KiniKoffee() {
             <div>
                 <h3 className={styles.sectiontitle}>ANALYSIS &amp; SYNTHESIS</h3>
                 <p className={styles.sectiontext}>Alongside a synthesis of the feaure sorting exercise, I grouped each 
-                user&apos;s feedback from testing on each prototype into the categories of suggestions, expectations, likes, and 
-                confusions, which helped us decide on the features from each prototype we want to implement into the
-                final prototype, and any additional features we want to add.</p>    
+                user&apos;s feedback on each prototype into the categories of suggestions, expectations, likes, and confusions, 
+                which helped us determine the features from each prototype we want to implement into the final prototype, 
+                and any additional features we want to add.</p>    
+            </div>
+
+            <div>
+                <h3 className={styles.subsectiontitle}>EXAMPLES</h3>
+                <div className={styles.twocolcont}>
+                    <div className={styles.twocol}>
+                        <Image src="/images/kini-koffee/expectations-A.jpg" width={595} height={455} />
+                    </div>
+
+                    <div className={styles.twocol}>
+                        <Image src="/images/kini-koffee/likes-B.jpg" width={643} height={410} />
+                    </div>
+                </div>
+
+                <br/>
+                <br/>
+
+                <div className={styles.twocolcont}>
+                    <div className={styles.twocol}>
+                        <Image src="/images/kini-koffee/likes-A.jpg" width={595} height={392} />
+                    </div>
+
+                    <div className={styles.twocol}>
+                        <Image src="/images/kini-koffee/suggestions-B.jpg" width={616} height={453} />
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h3 className={styles.subsectiontitle}>FINDINGS</h3>
+                <p className={styles.pluspoint}>+ Prototype B&apos;s menu is better for finding prices and drink info, and also shows 
+                Kini Koffee&apos;s specialization in drinks.</p>
+                <p className={styles.pluspoint}>+ Prototype A&apos;s menu is more visually exciting and engaging with pictures of the drinks, but needs prices on the menu..</p>
+                <p className={styles.pluspoint}>3. Users won&apos;t trust selected/curated 
+                content because it doesn&apos;t show honest customer feedback → Prefer Google Maps or Yelp to view honest reviews.
+                </p>
+                <p className={styles.pluspoint}>4. Career opportunities were not easily discoverable → Design pattern used to showcase 
+                careers needed revisions.</p>
             </div>
 
             {/* horizontal linebreak */}
