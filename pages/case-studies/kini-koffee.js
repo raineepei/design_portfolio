@@ -58,8 +58,9 @@ export default function KiniKoffee() {
 
             <div>
                 <h3 className={styles.sectiontitle}>THE OBJECTIVE</h3>
-                <p className={styles.sectiontext}>To address both client and customer needs, we created two problem statements that 
-                encompassed our goals for this project:</p>
+                <p className={styles.sectiontext}>To address both client and customer needs, we created 
+                two problem statements that encompassed our goals for this project while designing Kini 
+                Koffee&apos;s website and expanding their brand:</p>
             </div>
 
             <div className={styles.bluecontainer}>
@@ -306,14 +307,19 @@ export default function KiniKoffee() {
 
             <div>
                 <h3 className={styles.subsectiontitle}>FINDINGS</h3>
-                <p className={styles.pluspoint}>+ Prototype B&apos;s menu is better for finding prices and drink info, and also shows 
+                <p className={styles.pluspointunbolded}>+ Prototype B&apos;s menu is better for finding prices and drink info, and also shows 
                 Kini Koffee&apos;s specialization in drinks.</p>
-                <p className={styles.pluspoint}>+ Prototype A&apos;s menu is more visually exciting and engaging with pictures of the drinks, but needs prices on the menu..</p>
-                <p className={styles.pluspoint}>3. Users won&apos;t trust selected/curated 
-                content because it doesn&apos;t show honest customer feedback → Prefer Google Maps or Yelp to view honest reviews.
-                </p>
-                <p className={styles.pluspoint}>4. Career opportunities were not easily discoverable → Design pattern used to showcase 
-                careers needed revisions.</p>
+                <p className={styles.pluspointunbolded}>+ Prototype A&apos;s menu is more visually exciting and engaging with pictures of the drinks, but needs prices on the menu..</p>
+                <p className={styles.pluspointunbolded}>+ Prototype A has too much blank space and images which 
+                detracts from user experience (too much scrolling as well).</p>
+                <p className={styles.pluspointunbolded}>+ The smaller text in Prototype A to display important 
+                information may dissuade users from reading through it.</p>
+                <p className={styles.pluspointunbolded}>+ Displaying speciality drinks in Prototype A&apos;s 
+                homepage is engaging and fun.</p>
+                <p className={styles.pluspointunbolded}>+ Prototype B has more clarity and is easier to access 
+                information such as directions and locations.</p>
+                <p className={styles.pluspointunbolded}>+ Menu and Online Ordering are showcased well in both 
+                prototypes (primary reasons for using the site).</p>
             </div>
 
             {/* horizontal linebreak */}
