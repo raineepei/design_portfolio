@@ -77,7 +77,7 @@ export default function Home() {
             <div className={styles.card}>
               <a target="_blank" rel="noreferrer">
                 <h2>4. DESIGN CO</h2>
-                <p>Media Coordinator</p>
+                <p>My role as a Media Coordinator in growing UC San Diego&apos;s design community :&rpar;</p>
               </a>
             </div>
 
