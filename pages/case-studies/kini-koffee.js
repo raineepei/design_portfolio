@@ -160,11 +160,11 @@ export default function KiniKoffee() {
             <div>
                 <div className={styles.twocolcont}>
                     <div className={styles.twocol}>
-                        <Image src="/images/kini-koffee/kini-persona1.png" width={575} height={566} />
+                        <Image src="/images/kini-koffee/kini-persona1.jpg" width={575} height={566} />
                     </div>
 
                     <div className={styles.twocol}>
-                        <Image src="/images/kini-koffee/kini-persona2.png" width={575} height={566} />
+                        <Image src="/images/kini-koffee/kini-persona2.jpg" width={575} height={566} />
                     </div>
                 </div>
             </div>
