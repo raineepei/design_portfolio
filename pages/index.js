@@ -88,7 +88,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className={styles.grid}>
+          {/* <div className={styles.grid}>
             <div className={styles.card}>
               <a target="_blank" rel="noreferrer">
                 <h2>5. ANALOG</h2>
@@ -99,7 +99,7 @@ export default function Home() {
             <div className={styles.hoverimage}>
               <Image src='/images/big-cat.svg' className={styles.hoverimage} width={150} height={150} />
             </div>
-          </div>
+          </div> */}
 
         </div>
 
