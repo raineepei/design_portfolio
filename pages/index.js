@@ -34,10 +34,12 @@ export default function Home() {
         <div>
           <div className={styles.grid}>
               <div className={styles.card}>
-                <a target="_blank" rel="noreferrer">
-                  <h2>1. HEALTHCARE ROBOTICS LAB</h2>
-                  <p>Work In Progress</p>
-                </a>
+                <Link href="/case-studies/healthcare-robotics">
+                  <div>
+                    <h2>1. HEALTHCARE ROBOTICS LAB</h2>
+                    <p>Work In Progress</p>
+                  </div>
+                </Link>
               </div>
 
               <div className={styles.hoverimage}>
@@ -77,7 +79,7 @@ export default function Home() {
             <div className={styles.card}>
               <a target="_blank" rel="noreferrer">
                 <h2>4. DESIGN CO</h2>
-                <p>My role as a Media Coordinator in growing UC San Diego&apos;s design community :&rpar;</p>
+                <p>My role as a Media Coordinator in growing UC San Diego&apos;s design community :&#41;</p>
               </a>
             </div>
 
