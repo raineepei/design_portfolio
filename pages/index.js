@@ -37,7 +37,7 @@ export default function Home() {
                 <Link href="/case-studies/healthcare-robotics">
                   <div>
                     <h2>1. HEALTHCARE ROBOTICS LAB</h2>
-                    <p>Work In Progress</p>
+                    <p>Research assistant working on cognitively assistive robots to support people with MCI.</p>
                   </div>
                 </Link>
               </div>
