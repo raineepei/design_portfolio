@@ -77,7 +77,7 @@ export default function Home() {
 
           <div className={styles.grid}>
             <div className={styles.card}>
-              <a target="_blank" rel="noreferrer">
+              <a href="/case-studies/design-co">
                 <h2>4. DESIGN CO</h2>
                 <p>My role as a Media Coordinator in growing UC San Diego&apos;s design community :&#41;</p>
               </a>
