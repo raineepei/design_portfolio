@@ -77,10 +77,12 @@ export default function Home() {
 
           <div className={styles.grid}>
             <div className={styles.card}>
-              <a href="/case-studies/design-co">
-                <h2>4. DESIGN CO</h2>
-                <p>My role as a Media Coordinator in growing UC San Diego&apos;s design community :&#41;</p>
-              </a>
+              <Link href="/case-studies/design-co">
+                <div>
+                  <h2>4. DESIGN CO</h2>
+                  <p>My role as a Media Coordinator in growing UC San Diego&apos;s design community :&#41;</p>
+                </div>
+              </Link>
             </div>
 
             <div className={styles.hoverimage}>
