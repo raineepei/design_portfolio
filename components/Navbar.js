@@ -20,7 +20,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className={styles.navitem}>
-                    <Link href='/'>
+                    <Link href='https://drive.google.com/file/d/1n9g8oU28QWEKGDjZZorPrXQlKrJddNmc/view?usp=sharing'>
                         <a className={styles.navlink}>RESUME</a>
                     </Link>
                 </li>
