@@ -34,7 +34,8 @@ export default function Home() {
         <div>
           <div className={styles.grid}>
               <div className={styles.card}>
-                <Link href="/case-studies/healthcare-robotics">
+                <Link href="/">
+                {/* <Link href="/case-studies/healthcare-robotics"> */}
                   <div>
                     <h2>1. HEALTHCARE ROBOTICS LAB</h2>
                     <p>Research assistant working on cognitively assistive robots to support people with MCI.</p>
@@ -47,7 +48,7 @@ export default function Home() {
               </div>
           </div>
 
-          {/* <div className={styles.grid}>
+          <div className={styles.grid}>
               <div className={styles.card}>
                 <Link href="/case-studies/kini-koffee">
                   <div>
@@ -60,7 +61,7 @@ export default function Home() {
               <div className={styles.hoverimage}>
                 <Image src='/images/kini.svg' className={styles.hoverimage} width={150} height={150} />
               </div>
-          </div> */}
+            </div>
 
           <div className={styles.grid}>
             <div className={styles.card}>
