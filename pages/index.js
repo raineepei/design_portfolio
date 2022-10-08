@@ -34,8 +34,8 @@ export default function Home() {
         <div>
           <div className={styles.grid}>
               <div className={styles.card}>
-                <Link href="/">
-                {/* <Link href="/case-studies/healthcare-robotics"> */}
+                {/* <Link href="/"> */}
+                <Link href="/case-studies/healthcare-robotics">
                   <div>
                     <h2>1. HEALTHCARE ROBOTICS LAB</h2>
                     <p>Research assistant working on cognitively assistive robots to support people with MCI.</p>
