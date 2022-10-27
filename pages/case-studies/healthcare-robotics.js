@@ -66,9 +66,9 @@ export default function HCRL() {
             </div>
 
             <div>
-                <p className={styles.sectiontext}>This question changed my entire mindset on the design process as I&apos;ve 
+                <p className={styles.sectiontext}>This question reshaped my entire mindset on the design process as I&apos;ve 
                 grown so familiar with the concept of designing for others in my design classes, work, and personal 
-                projects. We were also reminded to focus on <span className={styles.boldblue}>avoiding technosolutionism</span> when 
+                projects. We were also reminded to <span className={styles.boldblue}>avoid technosolutionism</span> when 
                 working on our studies.</p>  
                 <p className={styles.sectiontext}>In the lab, we focused a lot on <span className={styles.boldblue}>co-designing</span> with user groups to make sure what we&apos;re working on is 
                 personalized and reflective of what users in those groups want. For example, we already have tools 
