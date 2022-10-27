@@ -84,16 +84,17 @@ export default function HCRL() {
                 for <span className={styles.boldblueunder}><a href="https://humanrobotinteraction.org/2023/">HRI 2023</a></span> exploring how robots can support people in identifying and achieving their personal goals
                 throughout a longitudinal health interventional (cognitively assistive robots), specifically for 
                 people with Mild Cognitive Impairment (PwMCI).</p>  
-                <p className={styles.sectiontext}>I started by reading literature on PwMCI and how they interact with 
+                {/* <p className={styles.sectiontext}>I started by reading literature on PwMCI and how they interact with 
                 technology-delivered health interventions, such as iPad apps, and design considerations (UX/UI) for PwMCI. 
                 I consolidated the information I read by creating user personas, conducting a competitive analysis with 
                 similar apps (regenerative and compensatory training applications), understanding pain points, creating 
                 “How Might We” statements, and journey maps to understand the needs of PwMCI when interacting with 
                 technology-delivered health interventions. Being able to understand the population to the best of my 
-                ability would help me design <span className={styles.boldblue}>with</span> PwMCI better.</p>
+                ability would help me design <span className={styles.boldblue}>with</span> PwMCI better.</p> */}
             </div>
+            
 
-            <div>
+            {/* <div>
                 <h3 className={styles.subsectiontitle}>Examples</h3>  
                 <div className={styles.twocolcont}>
                     <div className={styles.twocol}>
@@ -186,7 +187,7 @@ export default function HCRL() {
                 PwMCI would experience based on their design suggestions. I will work on designing responsive UI 
                 iterations based on insights from research to improve accessibility and suability for PwMCI using 
                 cognitively assistive robots at home.</p>  
-            </div>
+            </div> */}
 
             <div>
                 <h3 className={styles.sectiontitle}>Takeaways</h3>  
@@ -197,7 +198,11 @@ export default function HCRL() {
                 able to design products and experiences the have utility across a spectrum of abilities.</p>  
                 <p className={styles.sectiontext}>+ The interviews with PwMCI have been extremely fulfilling and has 
                 inspired me to continue my work in the lab in improving accessibility.</p>  
-            </div>
+            </div> 
+
+            <p className={styles.sectiontext} style={{textAlign: "center", color: "#0857C3", marginTop: "2%", fontSize: "17px"}}>Unfortunately, I currently cannot publish 
+                any details on this project until the paper is published. Please reach out to me at  
+                <Link href="mailto: pei.rainee@gmail.com"><a className={styles.footerlink}><u> pei.rainee@gmail.com</u></a></Link> if you would like to learn more!</p>
 
             <div className={styles.backbutton}>
                 <Link href="/">BACK</Link>
